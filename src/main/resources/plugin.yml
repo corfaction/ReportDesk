@@ -1,0 +1,17 @@
+name: ReportDesk
+version: '${version}'
+
+main: ru.corfaction.reportDesk.ReportDesk
+api-version: '26.3'
+load: POSTWORLD
+
+commands:
+  report:
+    description: Отправляет жалобу или управляет жалобами
+    usage: /report <игрок> <причина> | /report review | /report list [страница] | /report accept|deny <id>
+    aliases: [жалоба, жалобы]
+permissions:
+  reportdesk.staff:
+    description: Просмотр и обработка жалоб
+    default: op
+

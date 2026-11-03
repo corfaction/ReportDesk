@@ -1,0 +1,9 @@
+settings:
+  cooldown: 300
+  allow_self_report: false
+  allow_unknown_players: true
+  max_reason_length: 200
+  reports_per_page: 8
+messages:
+  prefix: "&8[&bReportDesk&8] &r"
+
